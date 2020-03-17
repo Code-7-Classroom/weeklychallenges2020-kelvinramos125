@@ -1,0 +1,43 @@
+.title-me{
+    text-align: center;
+    background-color: yellow;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-style: solid;
+    grid-gap: 15px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+.grid-item__img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 15px;
+    transition: all 233ms ease-in-out;
+}
+
+.grid-item:hover {
+    background-color: whitesmoke;
+}
+
+.grid-item:hover > a {
+    color: red;
+}
+
+

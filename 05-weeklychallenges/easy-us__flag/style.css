@@ -1,0 +1,33 @@
+#flag{
+    height:700px;
+    width:1400px;
+    border: black;
+    border-style: solid;
+    min-width: 1200px;
+    max-width: 1400px;
+  }
+
+  table{
+      margin:0px;
+      padding: 0px;
+  }
+  
+  img{
+    height:250px;
+    width:400px;
+    position: absolute;
+    margin:0px;
+    padding:0px;
+  }
+  .white{
+    background-color:white;
+  }
+  
+  .red{
+    background-color: red;
+  }
+  
+  td{
+    height: 10px;
+  }
+  
