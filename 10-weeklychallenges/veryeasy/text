@@ -1,0 +1,8 @@
+The difference between var, let and const is:
+
+-var and let are similar but let has a smaller scope and can only be 
+used in that block of code, while var has a bigger scope and be used all 
+around the code
+
+-const is for variable's value that are not going to change, if the code is given
+a different value an error will pop up 
