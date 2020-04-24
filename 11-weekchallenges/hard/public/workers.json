@@ -1,0 +1,64 @@
+{
+    "workers": [
+        {
+            "Name": "Austin",
+            "id": 1,
+            "Salary": 75000,
+            "Department": "Sales"
+        },
+        {
+            "Name": "Cody",
+            "id": 2,
+            "Salary": 77000,
+            "Department": "HR"
+        },
+        {
+            "Name": "Wilson",
+            "id": 3,
+            "Salary": 80000,
+            "Department": "IT"
+        },
+        {
+            "Name": "Mike",
+            "id": 4,
+            "Salary": 65000,
+            "Department": "Security"
+        },
+        {
+            "Name": "Donna",
+            "id": 5,
+            "Salary": 79000,
+            "Department": "HR"
+        },
+        {
+            "Name": "Leo",
+            "id": 6,
+            "Salary": 90000,
+            "Department": "IT"
+        },
+        {
+            "Name": "Josue",
+            "id": 7,
+            "Salary": 76000,
+            "Department": "Sales"
+        },
+        {
+            "Name": "Nathan",
+            "id": 8,
+            "Salary": 85000,
+            "Department": "IT"
+        },
+        {
+            "Name": "Dom",
+            "id": 9,
+            "Salary": 68000,
+            "Department": "Security"
+        },
+        {
+            "Name": "Lenise",
+            "id": 10,
+            "Salary": 78000,
+            "Department": "HR"
+        }
+    ]
+}
