@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class= "navbar">
+        <ul class = navbar-item>
+          <li class = "logoname__text">
+          <a class="logo-anchor" href="index.html">
+            <img class="logo" src="logo.png" alt="GM-logo"/></a><a class="logoname__text" href="index.html">
+            Game World
+          </a>
+        </li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+    <div id = "product-container">
+      <div id = "product-img"></div>
+    </div>
+
+    <div class = "filters-container">
+    <div class= "grid__filter">
+        <label for = "filterSelect" class = "filters">Filter Type:</label>
+        <select id="filterSelect" onchange="filterItems()">
+            <option value="default">All</option>
+            <option value="console">Console</option>
+            <option value="accessories">Accessories</option>
+          </select>
+    </div>
+
+    <div class= "grid__pricefilter">
+        <label for = "priceSelect" class = "filters">Filter Price:</label>
+        <select id="priceSelect" onchange="priceItems()">
+            <option value="default">All</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="100-200">$100 - $200</option>
+            <option value="200-400">$200 - $400</option>
+          </select>
+    </div>
+</div>
+<div id = "react-product">
+    
+</div>
+    <div class = "purchasing">
+        <a href="contact.html" id="purchase__button">Purchase</a>
+    </div>
+
+    <footer>
+
+        <figure>
+            <a class="logo-anchor" href="index.html">
+              <img class="logo" src="logo.png" alt="GM-logo"></a>
+          </figure>
+
+          <div class = "social-container">
+            <a href = "https://instagram.com"><img class = "instagram" src = "instagram.png" alt =  "instagram logo"></a>
+            <a href = "https://facebook.com"><img class = "facebook" src = "facebook.png" alt =  "facebook logo"></a>
+        </div>
+        
+        <p class='copyright'>GameWorld &copy; 2020, All Right Reserved</p>
+
+    </footer>
+
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="ReactProduct.js"></script>
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

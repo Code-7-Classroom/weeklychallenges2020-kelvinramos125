@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <nav class= "navbar">
+            <ul class = navbar-item>
+              <li class = "logoname__text">
+              <a class="logo-anchor" href="index.html">
+                <img class="logo" src="logo.png" alt="GM-logo"/></a><a class="logoname__text" href="index.html">
+                Game World
+              </a>
+            </li>
+              <li><a href="product.html">Product</a></li>
+              <li><a href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+
+            <p>Please fill out the form below to contact us</p>
+            <form class="cf" name = "myForm" action="/action_page.php" onsubmit="return validateForm()" method="GET">
+                <label for="name">Name</label>
+                <input type="text" id="name" >
+
+                <label for="email">Email</label>
+                <input type="text" id="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Give us your thoughts"></textarea>
+
+                <button type="submit" id="submit" class="button">Submit</button>
+            </form>
+            </div>
+            </section>
+
+
+
+            <footer>
+                <!-- <p class="social">Contact us through:<br><a class="email" href="egypttour_help@gmail.com">egypttour_help@gmail.com</a></p> -->
+
+                <figure>
+                    <a class="logo-anchor" href="index.html">
+                      <img class="logo" src="logo.png" alt="GM-logo"></a>
+                </figure>
+
+            <div class = "social-container">
+                <a href = "https://instagram.com"><img class = "instagram" src = "instagram.png" alt =  "instagram logo"></a>
+                <a href = "https://facebook.com"><img class = "facebook" src = "facebook.png" alt =  "facebook logo"></a>
+            </div>
+                <p class='copyright'>GameWorld &copy; 2020, All Right Reserved</p>
+            </footer>
+            <script src="script.js"></script>
+
+</body>
+
+</html>
