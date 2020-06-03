@@ -16,7 +16,7 @@ VALUES("Avengers: Ultron", 2015, 7.5),
 ("Pirates of the Caribbean: The Curse of the Black Pearl", 2003, 7.9),
 ("Lucy", 2014, 6.7),
 ("Jurassic Park 3", 2001, 4.9),
-("Interstellar", "October 26, 2014", 7.2),
+("Interstellar", 2014, 7.2),
 ("Joker", 2019, 8.5);
 
 ALTER TABLE topMovies ADD COLUMN directorFirstName VARCHAR(255);
@@ -26,31 +26,31 @@ UPDATE topMovies
 
 	SET directorFirstName = 'Joss', directorLastName = 'Whedon'
 	WHERE title = 'Avengers: Ultron';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Wally', directorLastName = 'Pfister'
 	WHERE title = 'Transcendence';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Michael', directorLastName = 'Dougherty'
 	WHERE title = 'Godzilla: King of the Monsters';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Gareth', directorLastName = 'Edwards'
 	WHERE title = 'Godzilla';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Baz', directorLastName = 'Luhrmann'
 	WHERE title = 'The Great Gatsby';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Gore', directorLastName = 'Verbinski'
 	WHERE title = 'Pirates of the Caribbean: The Curse of the Black Pearl';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Luc', directorLastName = 'Besson'
 	WHERE title = 'Lucy';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Joe', directorLastName = 'Johnston'
 	WHERE title = 'Jurassic Park 3';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Christopher', directorLastName = 'Nolan'
 	WHERE title = 'Interstellar';
-UPDATE movies 
+UPDATE topMovies 
 	SET directorFirstName = 'Todd', directorLastName = 'Philips'
 	WHERE title = 'Joker';
     
