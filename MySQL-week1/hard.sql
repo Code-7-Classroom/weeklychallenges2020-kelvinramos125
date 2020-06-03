@@ -23,7 +23,6 @@ ALTER TABLE topMovies ADD COLUMN directorFirstName VARCHAR(255);
 ALTER TABLE topMovies ADD COLUMN directorLastName VARCHAR(255);
 
 UPDATE topMovies
-
 	SET directorFirstName = 'Joss', directorLastName = 'Whedon'
 	WHERE title = 'Avengers: Ultron';
 UPDATE topMovies 
