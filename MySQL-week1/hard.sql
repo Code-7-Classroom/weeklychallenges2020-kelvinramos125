@@ -1,6 +1,7 @@
-DROP DATABASE IF EXISTS mediumChallenge;
-CREATE DATABASE mediumChallenge;
-USE mediumChallenge;
+DROP DATABASE IF EXISTS hard;
+CREATE DATABASE hard;
+USE hard;
+
 CREATE TABLE topMovies (title VARCHAR(255), 
 releaseDate YEAR, 
 rating DECIMAL(2,1));
