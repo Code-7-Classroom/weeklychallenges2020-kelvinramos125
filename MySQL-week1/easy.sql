@@ -5,7 +5,7 @@ CREATE TABLE faveBook (title varchar(255),
 publishDate varchar(255), 
 authorName varchar(255));
 
-INSERT INTO topCars (title , 
+INSERT INTO faveBook (title , 
 publishDate , 
 authorName)
 VALUES("House of the Scorpion", "2002", "Nancy Farmer"),
@@ -14,3 +14,5 @@ VALUES("House of the Scorpion", "2002", "Nancy Farmer"),
 ("The Diary Of a Young Girl", "June 25, 1947", "Anne Frank"), 
 ("Moby Dick", "October 18, 1851", "Herman Melville"),
 ("The Heretic’s Daughter", "September 3, 2008", "Kathleen Kent");
+
+SELECT * FROM faveBook;
