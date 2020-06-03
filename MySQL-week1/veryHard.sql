@@ -8,7 +8,7 @@ modle varchar(255),
 carYear YEAR);
 
 INSERT INTO topCars(make, 
-modle, 
+model, 
 carYear)
 VALUES("BMW", "5 Series", 2020),
 ("Cadillac", "CT6", 2020),
@@ -28,6 +28,6 @@ colors='Garnet Red Tintcoat, Black, Satin Steel Metallic' WHERE make = 'Chevrole
 
 ALTER TABLE topCars ADD COLUMN makeModel VARCHAR(50);
 UPDATE topCars SET makeModel = CONCAT(make, ' ', model);
-SELECT make, COUNT(1) FROM cars GROUP BY make; -- works but just selects
-SELECT * FROM cars;
-DROP TABLE cars;
+SELECT make, COUNT(1) FROM topCars GROUP BY make; -- works but just selects
+SELECT * FROM topCars;
+DROP TABLE topCars;
